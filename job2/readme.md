@@ -12,3 +12,10 @@ docker run -d --name mon-serveur-web -p 8080:3000 mon-app-perso:1.0
 docker ps
 ![alt text](image-2.png)
 ![alt text](image-1.png)
+
+Pour que la modification de code prend effet il faut supprimer le conteneur et le recréé
+docker stop 8f98e7e87873
+docker rm 8f98e7e87873
+docker build -t mon-app-perso:1.0 .
+![alt text](image-7.png)
+![alt text](image-6.png)
