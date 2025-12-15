@@ -19,3 +19,12 @@ docker rm 8f98e7e87873
 docker build -t mon-app-perso:1.0 .
 ![alt text](image-7.png)
 ![alt text](image-6.png)
+
+Publier sur votre compte docker une image docker, et rendez la disponible à un membre de votre promo
+Il faut s’identifier sur le Docker Hub : docker login
+![alt text](image-8.png)
+Il faut mettre un tag: docker tag mon-app-perso:1.0 mon-username-docker/mon-app-perso:1.0
+et apres on push vers Dockerhub avec docker push
+![alt text](image-10.png)
+
+lien vers l'image dockerhub : https://hub.docker.com/layers/mohamedaminenamasse/mon-app-perso/1.0/images/sha256:c2ad13402ec60b05827d5a173e6fda92255b852055e76c98fea38645584fc0ab?uuid=866C01D5-F0A4-4C4D-861C-F9AD981A0277
