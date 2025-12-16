@@ -27,3 +27,10 @@ docker stop puis docker rm
 ![alt text](image-12.png)
 On voit bien que le conteneur avec le port 8800 a bien été supprimé
 ![alt text](image-13.png)
+
+pour supprimer l'image docker images puis docker rmi -f id_image ou manuellement sur images de docker desktop
+![alt text](image-16.png)
+![alt text](image-17.png)
+on voit bien que l'image n'existe plus
+![alt text](image-18.png)
+![alt text](image-19.png)
