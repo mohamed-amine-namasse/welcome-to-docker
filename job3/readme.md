@@ -21,3 +21,5 @@ On lance le jeu sur un autre port 8800 par exemple
 Pour supprimer le conteneur deux manières soit manuellement en cliquant sur delete ou à l'aide de la commande
 docker stop puis docker rm
 ![alt text](image-12.png)
+On voit bien que le conteneur avec le port 8800 a bien été supprimé
+![alt text](image-13.png)
