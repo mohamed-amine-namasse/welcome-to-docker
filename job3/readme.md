@@ -17,6 +17,10 @@ On lance le jeu sur un autre port 8800 par exemple
 ![alt text](image-8.png)
 ![alt text](image-9.png)
 ![alt text](image-10.png)
+Pour trouver l'id du conteneur a arreter on fait docker ps qui afficher les conteneurs en cours d'execution
+ou on le voit directement sur docker desktop
+![alt text](image-15.png)
+![alt text](image-14.png)
 
 Pour supprimer le conteneur deux manières soit manuellement en cliquant sur delete ou à l'aide de la commande
 docker stop puis docker rm
