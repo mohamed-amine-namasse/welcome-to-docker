@@ -10,3 +10,9 @@ On lance l'image sur le port 8600 en considérant que l’image est configuré s
 On peut egalement demarrer le conteneur manuellement on cliquant sur start
 ![alt text](image-5.png)
 ![alt text](image-6.png)
+
+On lance le jeu sur un autre port 8800 par exemple
+![alt text](image-7.png)
+![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
