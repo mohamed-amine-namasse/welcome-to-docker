@@ -7,3 +7,6 @@ On remarque que l'image mario a bien été ajouté
 On lance l'image sur le port 8600 en considérant que l’image est configuré sur le port 8080 et on visualise sur navigateur
 ![alt text](image-3.png)
 ![alt text](image-4.png)
+On peut egalement demarrer le conteneur manuellement on cliquant sur start
+![alt text](image-5.png)
+![alt text](image-6.png)
