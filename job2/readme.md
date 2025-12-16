@@ -34,3 +34,6 @@ docker pull cosminbilga/welcome-to-docker
 ![alt text](image-11.png)
 ![alt text](image-9.png)
 ![alt text](image-12.png)
+
+Visualisation image de cosmin
+![alt text](image-13.png)
