@@ -1,5 +1,5 @@
 <?php
-$file = __DIR__ . 'data/results.json';
+$file = __DIR__ . '/results.json';
 // Lire les données envoyées
 $data = json_decode(file_get_contents('php://input'), true);
 if ($data) {
