@@ -15,3 +15,6 @@ VOLUME /usr/share/nginx/html
 
 # Exposer le port 80
 EXPOSE 80
+# lancer les deux services nginx et php
+
+CMD ["sh", "-c", "php-cgi -b 127.0.0.1:9000 & nginx -g 'daemon off;'"]
