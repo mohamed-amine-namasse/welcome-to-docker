@@ -43,8 +43,7 @@
 
 ![alt text](image-17.png)
 
-## on arrete le conteneur après avoir jouer à quelques parties
+## on arrete le conteneur après avoir jouer à quelques parties et on affiche le contenu de results.json
 
 ![alt text](image-18.png)
-
-## on affiche le contenu de results.json
+![alt text](image-20.png)
