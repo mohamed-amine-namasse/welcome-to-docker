@@ -12,3 +12,11 @@ On relie le volume au conteneur
 docker run -d -p 8080:80 -v game-results:/usr/share/nginx/html/data serveur-tic-tac-toe
 
 ![alt text](image-7.png)
+
+On voit bien que les résultats s'enregistre bien dans le volume après une partie
+![alt text](image-11.png)
+
+la commande qui permet de voir à l'intérieur d'un conteneur
+docker exec -it id_conteneur ls -R /usr/share/nginx/html
+![alt text](image-12.png)
+la commande qui perment de voir à l'intérieur d'un volume
