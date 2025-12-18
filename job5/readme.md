@@ -1,6 +1,5 @@
 on construit l'image docker avec docker build -t
-![alt text](image-8.png)
-![alt text](image-9.png)
+![alt text](image-10.png)
 on la visualise sur navigateur sur le port 8080 apres avoir fait docker run
 ![alt text](image-5.png)
 ![alt text](image-2.png)
