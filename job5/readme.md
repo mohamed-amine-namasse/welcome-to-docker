@@ -20,3 +20,5 @@ la commande qui permet de voir à l'intérieur d'un conteneur
 docker exec -it id_conteneur ls -R /usr/share/nginx/html
 ![alt text](image-12.png)
 la commande qui perment de voir à l'intérieur d'un volume
+docker run --rm -v game-results:/donnees alpine ls
+![alt text](image-13.png)
