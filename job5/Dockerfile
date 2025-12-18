@@ -9,7 +9,7 @@ COPY index.html /usr/share/nginx/html/index.html
 COPY save.php /usr/share/nginx/html/save.php
 COPY results.json /usr/share/nginx/html/results.json
 # Donner les permissions d'écriture pour que PHP puisse modifier results.json
-RUN chown -R www-data:www-data /usr/share/nginx/html && chmod -R 755 /usr/share/nginx/html
+RUN chown -R www-data:www-data /usr/share/nginx/html && chmod -R 777 /usr/share/nginx/html
 # Instruction pour indiquer que ce chemin peut être un volume
 VOLUME /usr/share/nginx/html
 

@@ -14,13 +14,14 @@
 
 ## On liste les volumes on voit bien que le volume game-results a bien été créé
 
+`docker volume ls`
 ![alt text](image-4.png)
 
 ## On relie le volume au conteneur
 
-`docker run -d -p 8080:80 -v game-results:/usr/share/nginx/html/data serveur-tic-tac-toe`
+`docker run -d -p 8080:80 -v game-results:/usr/share/nginx/html serveur-tic-tac-toe`
 
-![alt text](image-7.png)
+![alt text](image-19.png)
 
 ## On voit bien que les résultats s'enregistre bien dans le volume après une partie
 
@@ -41,3 +42,9 @@
 ## la commande pour lire results.json
 
 ![alt text](image-17.png)
+
+## on arrete le conteneur après avoir jouer à quelques parties
+
+![alt text](image-18.png)
+
+## on affiche le contenu de results.json
