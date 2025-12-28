@@ -1,3 +1,7 @@
+## On lance docker-composer en arrière plan avec docker-compose up -d
+
+![alt text](image-6.png)
+
 ## Accès à Adminer via l'URL http://localhost:8081 pour gérer la base de données
 
 ![alt text](image.png)
@@ -24,3 +28,14 @@ On voit bien le message de bienvenue
 
 On remarque qu'il ya une erreur
 ![alt text](image-5.png)
+
+# Accès a la base de donnée par terminal
+
+On tape la commande suivante pour entrer dans le conteneur et lancer mysql: docker exec -it mysql_db mysql -u root -p
+![alt text](image-7.png)
+
+Après on tape le mdp root et la commande SHOW DATABASES;
+![alt text](image-8.png)
+
+pour quitter on tape la commande exit;
+![alt text](image-9.png)
