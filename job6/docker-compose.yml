@@ -1,0 +1,65 @@
+version: "3.8"
+
+services:
+  database:
+    image: mysql:8.0
+    container_name: mysql_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: projetdb
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      # Vérifie que MySQL accepte les connexions avant de lancer le reste
+      test:
+        ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - app_network
+
+  backend:
+    build: ./backend
+    container_name: node_backend
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      database:
+        condition: service_healthy # Attend que le healthcheck MySQL soit OK
+    environment:
+      DB_HOST: database
+      DB_USER: root
+      DB_PASSWORD: root
+      DB_NAME: projetdb
+    networks:
+      - app_network
+  nginx:
+    image: nginx:alpine
+    container_name: frontend_nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+
+    networks:
+      - app_network
+
+  adminer:
+    image: adminer
+    container_name: adminer_gui
+    ports:
+      - "8081:8080"
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
+
+volumes:
+  db_data:
