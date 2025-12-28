@@ -15,3 +15,7 @@
 On voit bien le message de bienvenue
 
 ![alt text](image-3.png)
+
+## Accès au frontend via l'URL http://localhost:8080 affichant l'état de l'API
+
+![alt text](image-4.png)
