@@ -38,4 +38,5 @@ Après on tape le mdp root et la commande SHOW DATABASES;
 ![alt text](image-8.png)
 
 pour quitter on tape la commande exit;
+
 ![alt text](image-9.png)
