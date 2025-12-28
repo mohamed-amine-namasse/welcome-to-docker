@@ -19,3 +19,8 @@ On voit bien le message de bienvenue
 ## Accès au frontend via l'URL http://localhost:8080 affichant l'état de l'API
 
 ![alt text](image-4.png)
+
+## Accès à mysql via l'URL http://localhost:3306
+
+On remarque qu'il ya une erreur
+![alt text](image-5.png)
