@@ -20,6 +20,10 @@ On voit bien le message de bienvenue
 
 ![alt text](image-3.png)
 
+On Vérifie le statut de la base de données et retourne l'heure actuelle par une api
+
+![alt text](image-10.png)
+
 ## Accès au frontend via l'URL http://localhost:8080 affichant l'état de l'API
 
 ![alt text](image-4.png)
