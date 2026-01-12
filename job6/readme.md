@@ -26,7 +26,7 @@ On Vérifie le statut de la base de données et retourne l'heure actuelle par un
 
 ## Accès au frontend via l'URL http://localhost:8080 affichant l'état de l'API
 
-![alt text](image-4.png)
+![alt text](image-11.png)
 
 ## Accès à mysql via l'URL http://localhost:3306
 
