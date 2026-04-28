@@ -1,4 +1,4 @@
-## On lance docker-composer en arrière plan avec docker-compose up -d
+## On lance docker-compose en arrière plan avec docker-compose up -d
 
 ![alt text](image-6.png)
 
